@@ -1,11 +1,13 @@
-## EntryWrap webpack plugin [![Build Status](https://travis-ci.org/shakyShane/entry-wrap-webpack-plugin.svg?branch=master)](https://travis-ci.org/shakyShane/entry-wrap-webpack-plugin)
+## EntryWrapper webpack plugin
 
-> Wrap your bundle entry points
+> Wrap your bundle entry points for webpack2. 
+
+Since the `entry-wrap-webpack-plugin` author has no feedback to [my PR](https://github.com/shakyShane/entry-wrap-webpack-plugin/pull/5), I decide to publish my own package `entry-wrapper-webpack-plugin` for webpack2.
 
 ### Install 
 
 ```shell
-npm i entry-wrap-webpack-plugin -D
+npm i entry-wrapper-webpack-plugin -D
 ```
 
 ### Usage example
@@ -21,7 +23,7 @@ That's what this plugin is for.
 **`webpack.config.js`**
 
 ```shell
-var EntryWrap = require('entry-wrap-webpack-plugin');
+var EntryWrap = require('entry-wrapper-webpack-plugin');
 var webpack = require('webpack');
 module.exports = {
     context: __dirname,
