@@ -1,6 +1,6 @@
-## EntryWrapper webpack plugin[![Build Status](https://img.shields.io/travis/echopi/entry-wrap-webpack-plugin/entry-wrapper-webpack-plugin.svg)](https://travis-ci.org/echopi/entry-wrap-webpack-plugin)
-
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/echopi/entry-wrap-webpack-plugin/tree/entry-wrapper-webpack-plugin)
+## EntryWrapper webpack plugin
+[![Build Status](https://img.shields.io/travis/echopi/entry-wrap-webpack-plugin/entry-wrapper-webpack-plugin.svg)](https://travis-ci.org/echopi/entry-wrap-webpack-plugin)
+[![node version](https://img.shields.io/badge/node.js-%3E=_4.3.0-green.svg)](http://nodejs.org/download/)
 
 > Wrap your bundle entry points for webpack2. 
 
